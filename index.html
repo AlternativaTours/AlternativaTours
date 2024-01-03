@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="java.javascript">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>alternativatours</title>
+
+    <link rel="icon" href="imagenes/montañas 2 fondo.png">
+ 
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    
+   
+
+    </div>
+
+    <header>
+        <div class="container">
+            
+            <p class="logo"><img src="imagenes/montañas 2 fondo.png"width="50px" height="50px" alt="">  AlternativaTours</p>
+                <div class="buscador">
+                    <input type="text" placeholder="Buscar...">
+                    <span class="icono-buscar"><img src="imagenes/af26825714fd11d594a98f8269f59493.jpg "  width="30px" height="30px" alt=""></span>
+                </div>
+            <nav>    
+                <a href="https://www.instagram.com/alternativatours_/">
+                    <img src="imagenes/instagram naraja.png" alt="" width="30px" >
+               </a> 
+               
+                
+                <a href="www.instagram.com">
+                    <img src="imagenes/whasapa naranja.png" alt="" width="30px" >
+               </a> 
+               
+               <a href="www.instagram.com">
+                <img src="imagenes/facebook naranja.png" alt="" width="30px" >
+           </a> 
+               
+                <a href="#Quienes-somos">Quienes somos</a>   
+                <a href="#nuestros-programas">Nuestros Programas</a>
+                <a href="#caracteristicas">Contacto & Informacion</a> 
+            
+                
+                </div>
+
+            </nav>
+        </div>
+    
+    </header>
+
+    <section id="hero">
+
+        
+
+        <h1>Viaja a todas partes <br>con los Mejores</h1>
+        <button onclick="mostrarCarta('carta1')">Explora YA!</button>
+       </section>
+
+    <section id="#Quienes-somos">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2>Somos AlternativaTour <span class="-acento"></span> </h2>
+                
+                <p> Somos una empresa apasionada por el turismo, recién iniciada pero respaldada por años de experiencia colectiva en la industria. Nos enorgullece presentar una propuesta fresca y emocionante para aquellos que buscan aventuras únicas y experiencias inolvidables.</p>
+           
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros Programas</h2>
+            <div class="programas">
+                <div class="carta">
+
+                    <h3>Tours <br>Personalizados</h3>
+
+                    <p></p>
+                    <p> Con la atención personalizada de un guía experto y la flexibilidad para adaptarse a los horarios y intereses del cliente, los tours privados ofrecen una forma más íntima y personal de explorar destinos turísticos.</p>
+                     
+                    <a href="informacion de tours/Tour personalizado/Tourpersonalizado.html" onclick="openInSameTab(this); return false;"><button>+info</button></a>
+                   
+                    <!-- Carta adicional oculta inicialmente -->
+                    <div id="carta1" class="carta-adicional">
+                        <p>Información adicional sobre el Tour personalizado.</p>
+                    </div>
+                </div>
+                
+                <div class="carta">
+                    <h3>Tours <br> Privados</h3>
+
+                    
+<p> ¡Bienvenidos! Hoy exploraremos la emocionante opción de los tours privados, una experiencia única diseñada para aquellos que buscan comodidad, y exclusividad en sus viajes.</p>
+                   
+<a href="informacion de tours/Tour privado/tourprivado.html" onclick="openInSameTab(this); return false;"><button>+info</button></a>
+                    
+                    <!-- Carta adicional oculta inicialmente -->
+                    <div id="carta2" class="carta-adicional">
+                        <p>Información adicional sobre Tours privados.</p>
+                    </div>
+                </div>
+                
+                <div class="carta">
+                    <h3>Tours <br> Grupales</h3>
+                    
+                        
+                    <p>diseñada para reunir a un conjunto diverso de individuos que comparten intereses similares. Guiados por expertos locales, los participantes tienen la oportunidad de explorar destinos turísticos de manera social y enriquecedora</p>
+                        
+                    <a href="informacion de tours/Tours grupales/toursgrupales.html" onclick="openInSameTab(this); return false;"><button>+info</button></a>
+                    
+                    
+                     
+                    <div id="carta3" class="carta-adicional">
+                        <p>Información adicional sobre Tours Grupales.</p>
+
+                       
+                    
+
+                        
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            
+            
+            
+            
+            
+          
+        </div>
+    
+    </section>
+
+    <section id="final">
+        <h2>Listo para Alternativa tour?</h2>
+        <button onclick="mostrarCarta('carta4')">¡RESERVA YA!</button>
+        <!-- Carta adicional oculta inicialmente -->
+        <div id="carta4" class="carta-adicional">
+            <p>Información adicional sobre cómo reservar.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container"> <datagrid></datagrid>
+            <p>&copy; AlternativaTour 2023</p>
+        </div>
+    </footer>
+
+    <script>
+        // Función para mostrar u ocultar la carta adicional
+        function mostrarCarta(id) {
+            var cartaAdicional = document.getElementById(id);
+            cartaAdicional.style.display = (cartaAdicional.style.display === "block") ? "none" : "block";
+        }
+    </script>
+
+
+</body>
+</html>
