@@ -12,13 +12,26 @@ body{
     margin: 0;
 }
 
-h1{ font-size: 3.em; text-align: center;
+h1{ font-size: 5.em; text-align: center;
 }
 h2{ font-size: 2.7em;
 text-align: center;
 }
-h3{ font-size: 2em;
-text-align: center;
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+.presenta h3{ font-size: 
+
+    1em;
+text-align: center; text-align: center;
+margin: 20px 0px 20px 0px;
+       padding: 50px;
+   background-size: 100% 150px;
+   background-repeat: no-repeat;
+   background-position-y: 0;
+   background-color: rgb(227, 224, 224);
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 p{ font-size: 1.25em;
 text-align: center;
@@ -114,10 +127,7 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#Quienes-somos .container{
-    text-align: center;
-    padding: 200px 12px;
-}
+
 
 #nuestros-programas{
     background-color: rgb(172 156 143);
@@ -267,15 +277,17 @@ footer .container{
     }
 
     #Quienes-somos .texto{
-        width: 50%;
-        max-width: 600px;
+        
         text-align: initial;
         padding-left: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     
+
     }
+
+    
 .texto h1{
     margin: 30px 200px 30px 200px;
     padding: 10px 50px 10px 50px;
@@ -297,6 +309,7 @@ footer .container{
     background-position-y: 0;
     background-color: rgb(227, 224, 224);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em ;
 }
     
 
@@ -305,14 +318,7 @@ footer .container{
         
     }
 
-    #Quienes-somos .img-container{
-        background-image: url("imagenes/1.jpg");
-        background-size: cover;
-        background-position: center center;
-        height: 500px;
-        width: 400px; 
-    }
-
+ 
     #nuestros-programas .programas{
         display: flex;
         justify-content: center;
