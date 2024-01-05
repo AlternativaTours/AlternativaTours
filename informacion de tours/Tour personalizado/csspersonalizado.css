@@ -408,9 +408,8 @@ footer .container{
 }
     
 .contenedor{
-    margin: 30px;
-    border: tomato;
-    padding: 40px 40px 40px 40px;
+   width: 95%;
+    margin: auto;
     overflow: hidden;
 }
 .informacion {
