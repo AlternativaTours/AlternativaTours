@@ -1,7 +1,8 @@
 
 
-*{
+* {
     box-sizing: border-box;
+    
 }
 
 html{
@@ -25,7 +26,9 @@ text-align: center;
 }
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
-
+img{
+    overflow: hidden;
+}
 button{
     font-size: 1.25em;
     font-weight: bold;
@@ -41,9 +44,10 @@ button:hover{
     background-color: rgb(105, 105, 98);
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
+    overflow: hidden;
 }
 
 .color-acento{ color: tomato; }
@@ -112,10 +116,8 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#Quienes-somos .container{
-    text-align: center;
-    padding: 200px 12px;
-}
+
+
 
 #nuestros-programas{
     background-color: rgb(172 156 143);
@@ -125,6 +127,7 @@ header a:hover{
 
 #nuestros-programas .container{
     padding: 150px 12px;
+    
        
 }
 
@@ -176,28 +179,34 @@ header a:hover{
 
 #caracteristicas .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    padding: 250px 12px;
-    background-image: url("imagenes/informacion.jpg") ;
+    padding: 50px 12px 50px 12px;
+    margin: 30px 30px 30px 30px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:contain;
-   
-   
-}
+    background-size: contain;
+    justify-content: space-around
 
+}
+#caracteristicas p img{
+    text-align: left;
+    overflow: hidden;
+}
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
 }
 
+
+
+
 #final{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     background-color: rgb(30,30,30);
     color: white;
     height: 80vh;
@@ -250,32 +259,40 @@ footer .container{
         font-size: 5em;
     }
 
-    #Quienes-somos .container{
-        display: flex;
-        justify-content: space-evenly;
-    }
+    
 
-    #Quienes-somos .texto{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+   
+    
+    
+.texto h1{
+    margin: 30px 200px 30px 200px;
+    padding: 10px 50px 10px 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgb(132, 108, 87);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 200px;
+    text-align: center;
+}
+    .presenta h3 {
+        margin: 20px 0px 20px 0px;
+        padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgb(227, 224, 224);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+    
 
     #Quienes-somos h2{
         margin-top: 50px;
         
     }
 
-    #Quienes-somos .img-container{
-        background-image: url("imagenes/1.jpg");
-        background-size: cover;
-        background-position: center center;
-        height: 500px;
-        width: 400px; 
+   
     }
 
     #nuestros-programas .programas{
@@ -339,13 +356,18 @@ footer .container{
         background-repeat: no-repeat;
         background-size: 700px 400px;
         background-position: calc(900vw - 500px) 160px;
-        text-align: center;
+        text-align: left;
         
         
     }
-
+#caracteristicas p{
+    text-align: left;
+    overflow: hidden;
+  
+}
     #caracteristicas .container{
-        text-align: initial;
+        text-align: left;
+        box-sizing: border-box;
     }
 
     #caracteristicas ul{
@@ -363,7 +385,7 @@ footer .container{
     footer .container{
         justify-content: flex-end;
     }
-}
+
 
 @media (min-width: 1200px) {
     #caracteristicas{
@@ -416,5 +438,7 @@ footer .container{
 }
 
 .cartar {
-    text-align: start;
-}
+    text-align: start;}
+
+  
+
