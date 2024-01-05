@@ -431,15 +431,19 @@ footer .container{
 }
 
 .cartel {
-    margin: 20px;
-    padding: 50px;
+    margin: 1px;
+    padding: 1px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position-y: 0;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-
+ .cartel .aliar{
+    text-align: left;
+    margin: 30px;
+    padding: 30px;
+ }
 .slider {
 	width: 95%;
 	margin: auto;
@@ -476,4 +480,5 @@ footer .container{
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+
 
