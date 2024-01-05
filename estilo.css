@@ -47,7 +47,6 @@ button:hover{
 .container {
     max-width: 1400px;
     margin: auto;
-    overflow: hidden;
 }
 
 .color-acento{ color: tomato; }
@@ -116,8 +115,10 @@ header a:hover{
     font-size: 1.75em;
 }
 
-
-
+#Quienes-somos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
 
 #nuestros-programas{
     background-color: rgb(172 156 143);
@@ -259,11 +260,21 @@ footer .container{
         font-size: 5em;
     }
 
-    
+    #Quienes-somos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-   
+    #Quienes-somos .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
-    
+    }
 .texto h1{
     margin: 30px 200px 30px 200px;
     padding: 10px 50px 10px 50px;
@@ -292,7 +303,12 @@ footer .container{
         
     }
 
-   
+    #Quienes-somos .img-container{
+        background-image: url("imagenes/1.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
     }
 
     #nuestros-programas .programas{
@@ -436,7 +452,7 @@ footer .container{
     cursor: pointer;
     
 }
-
+}
 .cartar {
     text-align: start;}
 
