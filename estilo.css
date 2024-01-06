@@ -199,6 +199,11 @@ header a:hover{
     justify-content: space-around
 
 }
+
+#caracteristicas p {
+    text-align: left;
+    overflow: hidden;
+}
 #caracteristicas p {
     text-align: left;
     overflow: hidden;
